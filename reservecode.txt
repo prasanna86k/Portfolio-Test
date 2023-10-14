@@ -1,0 +1,15 @@
+
+        <div class="container-fluid flex-column" >
+            <div class="row  ">
+                <div class="d-flex  align-items-center col-md-6 col-sm-12 home-mid-section p-0">
+                    <div class="col   home-mid-mid">
+                        <!-- <div class="home-mid-mid"> -->
+                        <h2 class="text-white text-normal m-0">PORTFOLIO OF</h2> 
+                        <h1 class="text-white text-boldbig m-0">NETHMINI</h1>
+                        <h3 class="text-white text-description">HARINDI SILVA</h3>
+                        <!-- </div> -->
+                    </div> 
+                </div>
+            </div>    
+        </div>        
+    </div>

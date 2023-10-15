@@ -1,0 +1,221 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    height: 50%;
+    height: inherit;
+    background-image:url(./images/online-school-equipment-home.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* overflow:scroll; */
+    /*new selector added */
+
+}
+
+/*  height: inherit;
+    background-image:url(./images/online-school-equipment-home.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow:scroll;//new selector added */
+
+.background-image{
+    /* background-image:url(./images/online-school-equipment-home.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position:absolute; */
+    
+    /* position: fixed; */
+}
+
+.nav-cuslink{
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 30px;
+    transition-duration: .4s;
+}
+
+.nav-cuslink:hover{
+    color: tomato;
+    font-weight: 500;
+    margin-right: 60px;
+}
+
+.nav-cuslink-active{
+    font-weight: 500;
+    font-size: 20px;
+    color: tomato;
+    text-decoration: underline;
+    margin: 30px;
+}
+
+.nav-cuslink-bottom{
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 30px;
+    transition-duration: .4s;
+}
+
+.nav-cuslink-bottom:hover{
+    color: tomato;
+}
+
+.nav-cuslink-static{
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    margin: 30px;
+
+    transition-duration: .4s;
+}
+
+.home-mid-section{
+    /* background-color:#52054730; */
+    height: 900px;
+}
+
+.home-mid-mid{
+    background-color:#94949930;
+    /* contrast(100%) */
+    padding: 30px;
+    -webkit-backdrop-filter: contrast(100) blur(4px);
+    backdrop-filter:  blur(4px);
+    box-shadow: 2px 5px 10px rgb(20, 14, 1);
+    transition-duration: .4s;
+    border-left: 2px solid tomato;
+}
+
+.home-mid-mid:hover{
+    /* background-color:#05627950; */
+    -webkit-backdrop-filter: contrast(100) blur(10px);
+    backdrop-filter: blur(10px);
+    box-shadow: 2px 5px 15px rgb(20, 14, 1);
+}
+
+.text-white{
+    color: white;
+}
+
+.text-normal{
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    text-shadow: 5px 2px 5px black;
+    letter-spacing: 10px;
+
+}
+
+.text-boldbig{
+    padding-left: 50px;
+    font-size: 80px;
+    font-weight: 700;
+    text-shadow: 10px 5px 10px black;
+    letter-spacing: -2px;
+}
+
+.text-description{
+    /* padding-left: 50px;
+    font-size: 20px;
+    font-weight: 500; */
+    /* text-shadow: 5px 2px 5px black; */
+    letter-spacing: 4.3px;
+}
+
+.testdiv1{
+    /* background-color: chocolate; */
+    height: 200px;
+}
+
+.testdiv2{
+    /* background-color:coral; */
+    height: 40px;
+}
+
+.btn-width{
+    background-color: #00000030;
+    border-radius: 15px;
+    /* width: 150px; */
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(3px);
+    transition-duration: .4s;
+}
+
+
+.nav-bottom-height{
+    height: 50px;
+    background-color: #00000070;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(3px);
+}
+
+.nav-top-height{
+    height: 50px;
+    background-color: #00000080;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(6px);
+}
+
+.text-shadow{
+    text-shadow: 4px 3px 6px black;
+}
+
+.test-left-panel{
+    /* width: 95%; */
+    /* background-color: brown; */
+    height:200;
+    
+}
+
+.home-div-center{
+    top: 0%;
+    transform: translate(0, 100%);
+}
+
+.about-div-center{
+    top: 0%;
+    transform: translate(0, 10%);
+}
+
+
+.left-col-test{
+    /* background-color: aquamarine; */
+    height:250px;
+}
+
+.right-col-test{
+    /* background-color:cadetblue; */
+    height: 300px;
+}
+
+.photo-div{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: aqua;
+    background-image: url(./images/circule.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.text-tomato{
+    color: tomato;
+}
+
+.text-back-black{
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #00000050;
+}
+
